@@ -48,7 +48,8 @@ public class Crawling extends JavaPlugin implements Listener {
                 !Bukkit.getVersion().contains("1.14") &&
                 !Bukkit.getVersion().contains("1.15") &&
                 !Bukkit.getVersion().contains("1.16") &&
-                !Bukkit.getVersion().contains("1.17")) {
+                !Bukkit.getVersion().contains("1.17") &&
+                !Bukkit.getVersion().contains("1.18")) {
             Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&cSorry, this plugin works only on 1.13 or higher versions."));
             Bukkit.getPluginManager().disablePlugin(plugin);
             return;
